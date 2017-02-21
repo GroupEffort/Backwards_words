@@ -37,6 +37,7 @@ button:focus {outline:0;}
 .input_box{
 	text-align: center;
 	margin: 50px 0px 0px 100px;
+	float: right;
 }
 
 /* This is the CSS for the Nav Bar */
@@ -151,6 +152,7 @@ li.b a {
 	height: 300px;
 	width: 500px;
 	margin: 50px 0px 0px 300px;
+	float: right;
 }
 .response-title{
 	text-decoration: underline;
