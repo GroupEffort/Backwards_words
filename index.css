@@ -158,9 +158,8 @@ li.b a {
 .main{
 	text-align: center;
 	height: 500px;
-	position:absolute;
-	left:0;
-	right:0;
+	margin-bottom: -50px;
+	border-radius: 20px;
 }
 .footer{
 	color: #ffffff;
@@ -179,9 +178,8 @@ li.b a {
 	color: #ffffff;
 	height: 400px;
 	width: 100%;
-	position:absolute;
-left:0;
-right:0;
+	border-radius: 10px;
+	padding: 5px 0px 0px 3px;
 }
 
 
