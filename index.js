@@ -9,7 +9,9 @@ $(document).ready(function() {
       i++
     }
     document.getElementById('backwards').innerHTML = backwards_word
+    $(".old_responses").append(backwards_word + " ")
   });
+
 
 });
 
