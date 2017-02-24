@@ -2,45 +2,43 @@
 <html>
 <head>
   <title>Word Backwardsanizer</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script type="text/javascript" src="index.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="index.css" rel="stylesheet" media="screen">
 </head>
 <body>
-	<nav class="nav">
-		<ul class="a">
-			<li class="a"><a herf="index.html">Home</a></li>
-			<li class="a"><a herf="social.html">Our Social Media Pages</a></li>
-		</ul>
+	<nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <div class="collapse navbar-collapse" id="myNavbar">
+      		<ul class="nav navbar-nav navbar-right">
+      			<li><a herf="index.html">Home</a></li>
+      			<li><a herf="social.html">Our Social Media Pages</a></li>
+      		</ul>
+        </div>
+      </div>
+    </div>
 	</nav>
-	<div class="head">
-  		<p class="title"><b>Welcome to rezinasdrawkcaB droW</b></p>
+	<div class="container-fluid bg-1 text-center">
+    <h3 class="margin">Welcome to rezinasdrawkcaB droW</h3>
  	</div>
-  <div class="main">
-    <ul class="b">
-      <li class="b">
-         	<div class="direct">
-          		<p>Check out what your favorite words look like backwards</p>
-          </div>
-            <div class="input_box">
-          		<input type="text" name="word" id="input_word" placeholder="Enter Word Here"><br>
-          		<button class="submit" class="launch" id="backwards_word_converter">Submit</button>
-          	</div>
-        </li>
-        <li class="b">
-          <div class="prev_input">
-            <p class="response-title">Check out your backwards responses:</p>
-            <br>
-            <p id="backwards" class="backwards"></p>
-          <h1 id="backwards"></h1>
-          </div>
-        </li>
-      </ul>
+  <div class="container-fluid bg-2 text-center">
+    <h3 class="margin">Check out what your favorite words look like backwards</h3>
+      <input type="text" name="word" id="input_word" placeholder="Enter Word Here"><br>
+      <button class="submit" class="launch" id="backwards_word_converter">Submit</button>
+    <div>
+      <p id="backwards" class="backwards"></p>
+      <h1 id="backwards"></h1>
     </div>
-    <div class="old_responses">
+  </div>
+  <div class="container-fluid bg-3 text-center">
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    </div>
-<footer class="footer">
+  </div>
+<footer class="container-fluid bg-4 text-center">
   <p>This website was designed and programmed by Chuck and Bill</p>
 </footer>
 </body>
