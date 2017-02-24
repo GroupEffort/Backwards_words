@@ -12,7 +12,15 @@ h3 {
 h2 {
 	font-size: 40px;
 }
+a {
+	text-decoration: none;
+}
 
+col-sm-6{
+	text-decoration: none;
+	text-align: center;
+	color: #000000;
+}
 /* This is the CSS for the Input fields */
 
 input {
@@ -105,4 +113,7 @@ button:focus {outline:0;}
 }
 .social{
     font-size: 40px;
+}
+.website{
+	text-decoration: none;
 }
