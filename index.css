@@ -9,6 +9,9 @@ p {
 h3 {
 	font-size: 30px;
 }
+h2 {
+	font-size: 40px;
+}
 
 /* This is the CSS for the Input fields */
 
@@ -55,6 +58,10 @@ button:focus {outline:0;}
 	text-decoration: none;
 }
 
+.backwards{
+	color: #000000;
+	font-size: 20px;
+}
 .margin {
 	margin-bottom: 45px;
 }
