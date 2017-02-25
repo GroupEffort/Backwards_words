@@ -1,7 +1,7 @@
 body {
-      font: 20px Montserrat, sans-serif;
-      line-height: 1.8;
-      color: #f5f6f7;
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
 }
 p {
 	font-size: 20px;
@@ -12,42 +12,62 @@ h3 {
 h2 {
 	font-size: 40px;
 }
-a {
-	text-decoration: none;
-}
+
+/* CSS FOR BOOTSTRAP ELEMENTS */
 
 col-sm-6{
 	text-decoration: none;
 	text-align: center;
 	color: #000000;
 }
-/* This is the CSS for the Input fields */
+
+/* CSS FOR LINKS*/
+
+a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+a:active {
+    text-decoration: underline;
+    color: #000000;
+}
+
+/* CSS FOR INPUT FIRLDS */
 
 input {
     width: 400px;
     padding: 6px 10px;
-    margin: 8px 0;
-    border: 2px solid #14213D;
+    margin: 20px;
+    border: 2px solid #ffffff;
     background-color: #ffffff;
     color: #000000;
     font-size: 20px;
     text-align: center;
-    margin-left: 10px;
 }
 
 input[type=text] {
     padding:5px; 
-    border:2px solid #14213D; 
     -webkit-border-radius: 5px;
     border-radius: 5px;
 }
 
 input[type=text]:focus {border: 2px solid #ffffff; outline:0;}
 
-/* This is the CSS for the Buttons */
+/* CSS FOR BUTTONS */
 
 button:active {
-	background-color: #000000;
+	background-color: #FF5E5B;
 	color: #ffffff;
 }
 
@@ -55,21 +75,39 @@ button:focus {outline:0;}
 
 .input_box{
 	text-align: center;
-	margin: 50px 0px 0px 50px;
+	padding-bottom: 20px;
+	margin: auto;
+    width: 25%;
 }
 
 .submit {
 	background-color: #ffffff;
 	color: #000000;
-	border:2px solid #14213D;
+	border:2px solid #ffffff;
 	border-radius: 5px;
 	text-decoration: none;
+	margin: auto;
+    width: 15%;
+    margin-bottom: 20px;
 }
 
+/* THIS IS THE BOX WHERE THE BACKWARDS WORD GOES */
+
 .backwards{
-	color: #000000;
-	font-size: 20px;
+	color: #ffffff;
+	font-size: 30px;
+	text-align: center;
+	padding: 60px 0px 0px 0px;
+	width: 300px;
+	height: 200px;
+	border-radius: 10px;
+	border: 2px solid #FF5E5B;
+	margin: auto;
+    width: 50%;
 }
+
+/* CSS FOR CONTAINERS */
+
 .margin {
 	margin-bottom: 45px;
 }
@@ -94,6 +132,9 @@ button:focus {outline:0;}
       padding-top: 70px;
       padding-bottom: 70px;
 }
+
+/* CSS FOR NAV BAR */
+
 .navbar {
       padding-top: 15px;
       padding-bottom: 15px;
@@ -106,6 +147,11 @@ button:focus {outline:0;}
 .navbar-nav  li a:hover {
       color: #1abc9c !important;
 }
+.navbar-header {
+	font-size: 16px;
+}
+
+
 .img-responsive-margin { 
     width: 25%;
     display: block;
