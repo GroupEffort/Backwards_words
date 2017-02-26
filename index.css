@@ -117,3 +117,6 @@ button:focus {outline:0;}
 .website{
 	text-decoration: none;
 }
+#warning{
+  font-weight: bold;
+}
