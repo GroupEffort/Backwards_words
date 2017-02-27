@@ -22,14 +22,39 @@ $(document).ready(function() {
     j.style.transitionDuration = "0.5s";
     });
 
-  // $("#backwards_word_converter").click(function(){
-  //   var original_word = document.getElementById('input_word').value;
+
+  // Game JavaScript
+  var words = ['jay', 'hay', 'day'];
+  var i = 0;
+  var points = 0;
+  
+  function wordGenerator(){
+
+    var answer = document.getElementById('input_word').value
+    document.getElementById('backwardsWord').innerHTML = words[i];
+    $('#points').html(points);
+
+  }
+
+   $('#gameSubmit').click(function(){
+    var answer = document.getElementById('input_word').value;
+
+    if (answer.split("").reverse().join("") === words[i]) {
+      document.getElementById('backwardsWord').innerHTML = words[i += 1];
+      document.getElementById('points').innerHTML = points += 5;
+
+    }
+    
+    // for (i = 0; i < words.length; i++) {
+    //   word = words[i];
+    //    document.getElementById('backwardsWord').innerHTML = word.split("").reverse().join("");
+    // } 
+
   //   //var j = document.getElementById("backwards").innerHTML;
   //   document.getElementById("backwards").innerHTML = original_word;
   //   k += 180;
   //   document.getElementById("backwards").style.transform = "rotatey(" + k + "deg)";
   //   document.getElementById("backwards").style.transitionDuration = "0.5s";
-  //   });
 
   // $('#flip').click(function(){
   //    var backwardsWord = "";
@@ -42,7 +67,7 @@ $(document).ready(function() {
   //    }
   //    document.getElementById('backwards').innerHTML = backwardsWord;
   //    $("#backwardsWords").append(backwardsWord + " ");
-  //  })
-
+    })
+  wordGenerator();
 });
 
