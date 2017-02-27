@@ -185,18 +185,15 @@ button:focus {outline:0;}
 	text-decoration: none;
 }
 .leader {
-  border: 2px solid #000000;
   text-align: center;
-  width: 60%;
-  display: block;
+  width: 25%;
   margin: auto;
   padding: auto;
 }
 
-
-
-
-
+td, th {
+    border: 2px solid black;
+}
 
 
 
