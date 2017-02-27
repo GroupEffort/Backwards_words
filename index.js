@@ -42,7 +42,11 @@ $(document).ready(function() {
     if (answer.split("").reverse().join("") === words[i]) {
       document.getElementById('backwardsWord').innerHTML = words[i += 1];
       document.getElementById('points').innerHTML = points += 5;
-
+    }
+    if (answer.split("").reverse().join("") === words[i]) {
+      document.getElementById('correctOrWrong').innerHTML = "Correct"
+    }else{
+      document.getElementById('correctOrWrong').innerHTML = "Wrong"
     }
     
     // for (i = 0; i < words.length; i++) {
