@@ -28,63 +28,68 @@
     </div>
   </nav>
   <div class="container-fluid bg-3 text-center">
-    <h2>Leaderboard</h2>
-      <table class="leader">
-        <tr>
-          <td>Player Name</td>
-          <td>Score</td>
-        </tr>
-        <tr>
-          <td>Player 1</td>
-          <td>Score</td>
-        </tr>
-        <tr>
-          <td>Player 2</td>
-          <td>Score</td>
-        </tr>
-        <tr>
-          <td>Player 3</td>
-          <td>Score</td>
-        </tr>
-        <tr>
-          <td>Player 4</td>
-          <td>Score</td>
-        </tr>
-        <tr>
-          <td>Player 5</td>
-          <td>Score</td>
-        </tr>
-        <tr>
-          <td>Player 6</td>
-          <td>Score</td>
-        </tr>
-        <tr>
-          <td>Player 7</td>
-          <td>Score</td>
-        </tr>
-        <tr>
-          <td>Player 8</td>
-          <td>Score</td>
-        </tr>
-        <tr>
-          <td>Player 9</td>
-          <td>Score</td>
-        </tr>
-        <tr>
-          <td>Player 10</td>
-          <td>Score</td>
-        </tr>
-      </table>
-    </div>
-  <div class="container-fluid bg-2 text-center">
-    <div class="game">
-      <p>Whats the word?</p>
-      <h3 id="correctOrWrong"></h3>
-      <h1 id="backwardsWord"></h1>
-      <input type="text" name="word" id="input_word" placeholder="Enter Word Here"><br>
-        <button class="submit" class="launch" id="gameSubmit">Submit</button>
-      <h3>Points</h3>
-      <h4 id="points"></h4>
+    <div class="col-sm-8">
+    <p class="WordTitle">What's the word?</p>
+      <div class="game">
+        <h3 class="wrongword" id="correctOrWrong"></h3>
+          <h1 id="backwardsWord"></h1>
+            <input type="text" name="word" id="input_word" placeholder="Enter Word Here">
+              <button class="submit" class="launch" id="gameSubmit">Submit</button>
+            <div class="gamescore">
+                <h3 class="points">Points</h3>
+                <h4 class="score" id="points"></h4>
+              </div>
+            </div>
+         </div>
+      <div class="col-sm-4">
+        <h2 class="leadertitle">Leaderboard</h2>
+        <table class="leader">
+          <tr>
+            <td>Player Name</td>
+            <td>Score</td>
+          </tr>
+          <tr>
+            <td>Player 1</td>
+            <td>Score</td>
+          </tr>
+          <tr>
+            <td>Player 2</td>
+            <td>Score</td>
+          </tr>
+          <tr>
+            <td>Player 3</td>
+            <td>Score</td>
+          </tr>
+          <tr>
+            <td>Player 4</td>
+            <td>Score</td>
+          </tr>
+          <tr>
+            <td>Player 5</td>
+            <td>Score</td>
+          </tr>
+          <tr>
+            <td>Player 6</td>
+            <td>Score</td>
+          </tr>
+          <tr>
+            <td>Player 7</td>
+            <td>Score</td>
+          </tr>
+          <tr>
+            <td>Player 8</td>
+            <td>Score</td>
+          </tr>
+          <tr>
+            <td>Player 9</td>
+            <td>Score</td>
+          </tr>
+          <tr>
+            <td>Player 10</td>
+            <td>Score</td>
+          </tr>
+        </table>
+      </div>
     </div>
   </div>
   <footer class="container-fluid bg-4 text-center">
