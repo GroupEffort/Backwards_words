@@ -11,6 +11,14 @@
   <link href="game.css" rel="stylesheet" media="screen">
   <script type="text/javascript" src="index.js"></script>
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script>
+    $(function() {
+        $( "#button" ).click(function() {
+            $( "#item" ).toggle();
+        });
+    });
+  </script>
 </head>
   <nav class="navbar navbar-default">
     <div class="container">
@@ -31,6 +39,10 @@
     <div class="col-sm-8">
     <p class="WordTitle">What's the word?</p>
       <div class="game">
+      <button id="button" href="#" class="submit2">View Game Instructions</button>
+      <div id="item">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
         <h3 class="wrongword" id="correctOrWrong"></h3>
           <h1 id="backwardsWord"></h1>
             <input type="text" name="word" id="input_word" placeholder="Enter Word Here">
