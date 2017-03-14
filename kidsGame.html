@@ -9,7 +9,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="assets/css/gamekid.css" rel="stylesheet" media="screen">
-  <script type="text/javascript" src="assets/js/game.js"></script>
+  <script type="text/javascript" src="assets/js/kidsGame.js"></script>
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
   <script>
@@ -40,10 +40,11 @@
       <div class="game">
       <button id="button" href="#" class="submit2">View Game Instructions</button>
       <div id="item">
-        <p>The game is simple. The words that are presented to you are backwards and flipped, your job is to figure out and type what the words are. Have fun!</p>
+        <p>Hey kid think you can spell? Then prove it! <br> All you've got to do is spell the word correctly. Good luck and have fun!</p>
       </div>
         <h1  style="font-size: 50px;" id="backwardsWord"></h1>
-          <input type="text" name="word" id="input_word" placeholder="Enter Word Here">
+        <!-- <form> -->
+          <input type="text" name="word" id="input_word" placeholder="Enter Word Here" autofocus="">
             <button class="submit" class="launch" id="gameSubmit">Submit</button>
           <div class="gamescore">
               <h3 class="points">Points</h3>
@@ -51,6 +52,7 @@
             </div>
           <h3 id="correctOrWrong"></h3>
           </div>
+        <!-- </form> -->
     </div>
   </div>
   <footer class="container-fluid bg-4 text-center">
