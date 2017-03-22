@@ -18,7 +18,7 @@ $(document).ready(function() {
     document.getElementById('backwardsWord').innerHTML = words[i].split("").reverse().join("");
     $('#points').html(points);
 
-    var timer = 50;
+    var timer = 25;
     $('#timer').html(timer);
 
     myCounter = setInterval(function () {
