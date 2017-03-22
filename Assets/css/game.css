@@ -87,20 +87,6 @@ button:active {
 
 button:focus {outline:0;}
 
-
-/* This is for Mobile Devices */
-
-@media only screen and (max-device-width: 1024px) {
-    button {
-        position: absolute;
-    }
-}
-
-
-
-
-
-
 .input_box{
 	text-align: center;
 	padding-bottom: 20px;
@@ -177,7 +163,7 @@ button:focus {outline:0;}
   margin-bottom: 20px;
 }
 .game {
-  height: 600px;
+  height: auto;
   border-radius: 10px;
   border: 2px solid #000000;
   margin: auto;
@@ -203,6 +189,7 @@ button:focus {outline:0;}
   margin: auto;
   width: 20%;
   text-align:center;
+  margin-bottom: 15px;
 }
 
 .points{
@@ -279,12 +266,21 @@ button:focus {outline:0;}
    font-size: 30px;
    text-align: center;
 }
+
+/* This is for Mobile Devices */
+
+@media only screen and (max-device-width: 1024px) {
+    .submit {
+        width: 45% ;
+    }
+    input {
+        width: auto;
+    }
+    .gamescore {
+      width: 50%;
+      margin-bottom: 10px;
+    }
 }
-
-
-
-
-
 
 
 

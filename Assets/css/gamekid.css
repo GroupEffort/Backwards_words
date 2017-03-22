@@ -106,16 +106,6 @@ button:focus {outline:0;}
   margin-bottom: 20px;
 }
 
-.submit2 {
-  background-color: #54DEFD;
-  color: #657079;
-  border:2px solid #657079;
-  border-radius: 5px;
-  text-decoration: none;
-  margin: auto;
-  width: 30%;
-  margin-bottom: 20px;
-}
 /* CSS FOR CONTAINERS */
 
 .margin {
@@ -162,7 +152,7 @@ button:focus {outline:0;}
   margin-bottom: 20px;
 }
 .game {
-  height: 600px;
+  height: auto;
   border-radius: 10px;
   border: 2px solid #000000;
   margin: auto;
@@ -188,6 +178,7 @@ button:focus {outline:0;}
   margin: auto;
   width: 30%;
   text-align:center;
+  margin-bottom: 15px;
 }
 
 .points{
@@ -264,8 +255,21 @@ button:focus {outline:0;}
    font-size: 30px;
    text-align: center;
 }
-}
 
+/* This is for Mobile Devices */
+
+@media only screen and (max-device-width: 1024px) {
+    .submit {
+        width: 45% ;
+    }
+    input {
+        width: auto;
+    }
+    .gamescore {
+      width: 50%;
+      margin-bottom: 10px;
+    }
+}
 
 
 
