@@ -67,7 +67,7 @@ input[type=text]:focus {border: 2px solid #ffffff; outline:0;}
 /* CSS FOR BUTTONS */
 
 button:active {
-	background-color: #FF5E5B;
+	background-color: #58A4B0;
 	color: #ffffff;
 }
 
@@ -114,11 +114,11 @@ button:focus {outline:0;}
 }
 
 .bg-1 { 
-      background-color: #FF5E5B; /* Red */
+      background-color: #58A4B0; /* Red */
       color: #000000;
 }
 .bg-2 { 
-      background-color: #00CECB; /* Light Blue */
+      background-color: #58A4B0; /* Light Blue */
       color: #000000;
 }
 .bg-3 { 
