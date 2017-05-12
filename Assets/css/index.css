@@ -173,7 +173,7 @@ button:focus {outline:0;}
 }
 
 .Logo {
-  height: auto;
+  height: 500px;
 }
 
 /* This is for Mobile Devices */
@@ -184,5 +184,8 @@ button:focus {outline:0;}
     }
     input {
         width: auto;
+    }
+    .Logo {
+      height: 200px;
     }
 }
