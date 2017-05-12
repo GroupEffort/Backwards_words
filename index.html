@@ -22,6 +22,24 @@
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#slider" ).slider({
+      value:100,
+      min: 0,
+      max: 500,
+      step: 50,
+      slide: function( event, ui ) {
+        $( "#amount" ).val( "$" + ui.value );
+      }
+    });
+    $( "#amount" ).val( "$" + $( "#slider" ).slider( "value" ) );
+  } );
+  </script>
 </head>
 <body>
   <nav class="navbar navbar-default">
@@ -39,6 +57,12 @@
       </div>
     </div>
   </nav>
+  <p>
+  <label for="amount">Donation amount ($50 increments):</label>
+  <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+</p>
+<div id="slider"></div>
+
 	<div class="container-fluid bg-1 text-center">
     <h2 class="margin">Welcome to rezinasdrawkcaB droW</h2>
     <a href="mediumGame.html"><i class="fa fa-gamepad" style="font-size: 100px;" aria-hidden="true"></i></a><br><h3>Check out our different game modes with increading levels od difficulty</h3>
