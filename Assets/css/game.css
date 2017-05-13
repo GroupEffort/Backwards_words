@@ -106,16 +106,6 @@ button:focus {outline:0;}
   margin-bottom: 20px;
 }
 
-.submit2 {
-  background-color: #ffffff;
-  color: #657079;
-  border:2px solid #657079;
-  border-radius: 5px;
-  text-decoration: none;
-  margin: auto;
-  width: 30%;
-  margin-bottom: 20px;
-}
 /* CSS FOR CONTAINERS */
 
 .margin {
@@ -275,15 +265,11 @@ button:focus {outline:0;}
     }
     input {
         width: auto;
+        margin: auto;
+        margin-bottom: 20px;
     }
     .gamescore {
       width: 50%;
       margin-bottom: 10px;
     }
 }
-
-
-
-
-
-

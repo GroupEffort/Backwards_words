@@ -1,7 +1,5 @@
 $(document).ready(function() {
 
-  var k = 0;
-
   $("#backwards_word_converter").click(function(){
     var backwards_word = "";
     var original_word = document.getElementById('input_word').value;
@@ -17,6 +15,7 @@ $(document).ready(function() {
 
 
   $('#flip').click(function(){
+    var k = 0;
     //var j = document.getElementById("backwards");
     // document.getElementById("backwards");
     k += 180;
